@@ -1400,7 +1400,7 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
-    color: #00a7bd;
+    color: #000000;
 }
 
 
@@ -1438,7 +1438,7 @@ a.back-to-top {
 }
 
 a:hover.back-to-top {
-	background-color: #00a7bd; 
+	background-color: #000000; 
 }
 
 
