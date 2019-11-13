@@ -317,30 +317,21 @@
                 <div class="col-lg-6">
                     
                     <!-- Contact Form -->
-                    <form id="contactForm" name="contact" method="POST" data-netlify="true">    
-                        <div class="form-group">
-                            <input type="text" class="form-control-input" id="cname" required>
-                            <label class="label-control" for="cname">Name</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control-input" id="cemail" required>
-                            <label class="label-control" for="cemail">Email</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
-                            <label class="label-control" for="cmessage">Your message</label>
-                            <div class="help-block with-errors"></div>
-                        </div>
+                    <form name="contact" method="POST" data-netlify="true">
+                        <p>
+                          <label>Your Name: <input type="text" name="name" /></label>   
+                        </p>
+                        <p>
+                          <label>Your Email: <input type="email" name="email" /></label>
+                        </p>
                         
                         <p>
-                            <button type="submit">Send</button>
-                          </p>
-                        <div class="form-message">
-                            <div id="cmsgSubmit" class="h3 text-center hidden"></div>
-                        </div>
-                    </form>
+                          <label>Message: <textarea name="message"></textarea></label>
+                        </p>
+                        <p>
+                          <button type="submit">Send</button>
+                        </p>
+                      </form>
                     <!-- end of contact form -->
 
                 </div> <!-- end of col -->
