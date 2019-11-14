@@ -1701,7 +1701,7 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header {
-		background-image: radial-gradient(White , grey , black);
+		background-image: linear-gradient( grey  , White);
 		background-size: cover; 
 	}
 
